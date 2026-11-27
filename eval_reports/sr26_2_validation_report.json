@@ -1,0 +1,45 @@
+{
+  "benchmark_size": 25,
+  "field_level_precision": 1.0,
+  "field_level_recall": 1.0,
+  "field_level_f1": 1.0,
+  "document_exact_match_rate": 1.0,
+  "compliance_triage_accuracy": 1.0,
+  "operational_metrics": {
+    "total_docs": 25,
+    "auto_approved": 18,
+    "human_review": 7,
+    "stp_rate": 0.72,
+    "vlm_escalated": 6,
+    "vlm_escalation_rate": 0.24,
+    "avg_latency_ms": 0.68,
+    "total_cost_usd": 0.0158
+  },
+  "category_breakdown": {
+    "clean_standard": {
+      "total": 12,
+      "triage_correct": 12,
+      "exact_match": 12
+    },
+    "noisy_low_confidence": {
+      "total": 6,
+      "triage_correct": 6,
+      "exact_match": 6
+    },
+    "math_mismatch": {
+      "total": 3,
+      "triage_correct": 3,
+      "exact_match": 3
+    },
+    "missing_tax_id_policy": {
+      "total": 2,
+      "triage_correct": 2,
+      "exact_match": 2
+    },
+    "duplicate_submission": {
+      "total": 2,
+      "triage_correct": 2,
+      "exact_match": 2
+    }
+  }
+}
